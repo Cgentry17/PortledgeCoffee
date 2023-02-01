@@ -1,0 +1,133 @@
+/* This will style the body element */
+body {
+    background-color: grey;
+    /* "Department of Coffee and Social Affairs" by Michael Dales is licensed under CC BY-NC 2.0 */
+    background-image: url(/images/Screen\ Shot\ 2023-01-17\ at\ 10.14.29\ AM.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* This will style the wrapper class to center the content */
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    background-color: rgba(69, 69, 202, 0);
+    min-height: 100px;
+}
+
+.logoImage {
+    height: 90px;
+}
+
+nav {
+    background-color: rgb(116, 118, 113);
+    min-height: 20px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+a {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+main {
+    background-color: rgba(202, 198, 192, 0);
+    min-height: 400px;
+    text-align: center;
+    /* padding-top: 20px; */
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: antiquewhite;
+    font-family: 'oswald';
+    text-shadow: 1px 1px 2px chocolate;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+main h2 {
+    font-size: 40px;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+main p {
+    font-size: 18px;
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px chocolate;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.myButton{
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid black;
+    color: antiquewhite;
+    border-radius: 20px;
+}
+
+.map{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+footer {
+    background-color: rgba(103, 93, 180, 0);
+    min-height: 50px;
+    text-align: center;
+    color: antiquewhite;
+    text-shadow: 1px 1px 2px chocolate;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Picture1{
+    width: 300px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.Picture2{
+    width: 300px;
+    text-align: center;
+}
+.Picture3{
+    width: 300px;
+    text-align: center;
+}
+.Picture4{
+    width: 300px;
+    text-align: center;
+}
+.Picture5{
+    width: 300px;
+    text-align: center;
+}
